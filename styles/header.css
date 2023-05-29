@@ -1,6 +1,8 @@
 .header {
   padding-top: 45px;
 }
+
+/* Стилі для header-nav */
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -21,9 +23,70 @@
   align-items: center;
   gap: 40px;
 }
-.register {
-  padding: 15px 30px;
-  background: #1a75e8;
+
+/* Стилі для header-main  */
+.header-main {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.header-main-card {
+  /* max-width: 460px; */
+}
+
+.header-card-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 15px;
+}
+.header-card-text {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+/* Стилі форми пошуку */
+.header-card-search {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  background: #ffffff;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
   border-radius: 5px;
-  color: #fff;
+  padding: 10px 10px 10px 25px;
+  margin-bottom: 25px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search-button::before {
+  content: url("/img/search.svg");
+}
+
+.header-card-example {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-example-title,
+.header-example-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b2b2b2;
+}
+
+.header-example-item {
+  padding: 5px 10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
 }
