@@ -31,7 +31,7 @@
   gap: 130px;
 }
 .header-main-card {
-  /* max-width: 460px; */
+  max-width: 460px;
 }
 
 .header-card-title {
@@ -49,7 +49,6 @@
 .header-card-search {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
   background: #ffffff;
   border: 1px solid rgba(209, 209, 209, 0.1);
   box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
@@ -67,6 +66,8 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  font-size: 16px;
+  line-height: 19px;
 }
 .search-button::before {
   content: url("/img/search.svg");
